@@ -1,12 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EDNReaderWriter", "EDNReaderWriter\EDNReaderWriter.fsproj", "{72E03163-0A92-46C5-8201-78EB4A771BEB}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EDNReaderTest", "EDNReaderTest\EDNReaderTest.fsproj", "{77432EA1-F785-4383-9FF9-2C442A8EE829}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDNTypes", "EDNTypes\EDNTypes.csproj", "{5FF5EA7A-1599-4412-AEDE-33B190244FDF}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FFC94509-5D42-48CA-A06A-D4654D63FBD2}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -17,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EDNReaderWriter", "EDNReaderWriter\EDNReaderWriter.fsproj", "{72E03163-0A92-46C5-8201-78EB4A771BEB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EDNReaderTest", "EDNReaderTest\EDNReaderTest.fsproj", "{77432EA1-F785-4383-9FF9-2C442A8EE829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDNTypes", "EDNTypes\EDNTypes.csproj", "{5FF5EA7A-1599-4412-AEDE-33B190244FDF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDNReaderTestCS", "EDNReaderTestCS\EDNReaderTestCS.csproj", "{8A0884C8-D2D8-48FA-B936-A91EC3F39C0F}"
 EndProject
